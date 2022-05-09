@@ -109,20 +109,7 @@ public class mcqex extends HttpServlet {
         {
             out.close();
         }
-        try {
-            /* TODO output your page here. You may use following sample code. */
-            out.println("<!DOCTYPE html>");
-            out.println("<html>");
-            out.println("<head>");
-            out.println("<title>Servlet mcqex</title>");            
-            out.println("</head>");
-            out.println("<body>");
-            out.println("<h1>Servlet mcqex at " + request.getContextPath() + "</h1>");
-            out.println("</body>");
-            out.println("</html>");
-        } finally {            
-            out.close();
-        }
+        
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
