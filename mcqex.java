@@ -41,7 +41,6 @@ public class mcqex extends HttpServlet {
         {
             int mark=0;
             String name=request.getParameter("t1");
-            String rollno=request.getParameter("t2");
             String q1=request.getParameter("q1");
             String q2=request.getParameter("q2");
             String q3=request.getParameter("q3");
